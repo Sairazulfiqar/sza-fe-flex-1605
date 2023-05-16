@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    border: red 2px solid;
+    margin-bottom: 5px;
+}
+
+#head {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#main {
+    height: 60vh;
+    display: flex;
+}
+
+#footer {
+    height: 15vh;
+    display: flex;
+}
+
+.main {
+    border: green 2px solid;
+}
+
+#main-izquierda {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#main-derecha {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-footer {
+    border: blueviolet 2px solid;
+    width: 20%;
+}
