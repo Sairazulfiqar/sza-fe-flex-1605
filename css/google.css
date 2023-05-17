@@ -120,10 +120,22 @@ body {
 
 #buscar {
     margin-right: 0.5%;
+    display: flex;
+    justify-content: center;
 }
+
+#Voy {
+    display: flex;
+    justify-content: center;
+
+}
+
 .buscadores {
     display: flex;
-    height: 60%;
+    height: 70%;
+    width: 9% ;
+    border: none;
+    align-items:center;
 }
 
 #idiomas {
@@ -145,6 +157,7 @@ body {
     height: 40px;
     display: flex;
     justify-content: left;
+    align-items: center;
 }
 
 #footerB {
