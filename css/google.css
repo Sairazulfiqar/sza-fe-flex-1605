@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    border: black 1px solid;
+    border: none;
 }
 
 #head {
@@ -69,7 +69,7 @@ body {
 } */
 
 #main {
-    height: 700px;
+    height: 600px;
     width: 100%;
 }
 
@@ -80,7 +80,25 @@ body {
 
 #searchbar {
     height: 100px;
+    display: flex;
 }
+
+#lupa {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#micro {
+    display: flex;
+    justify-content: right;
+    align-content: center;
+    margin-top: -7%;
+    margin-right: 2%;
+}
+
 
 #buscadores {
     height: 50px;
@@ -112,56 +130,65 @@ body {
     height: 150px;
     justify-content: center;
     text-align: center;
+    display: flex;
 } 
 
 #footer {
-    height: 50px;
+    height: 80px;
     width: 100%;
     background-color: rgb(227, 227, 227);
+    justify-content: left;
+    align-items: center;
 }
 
 #footerA{
-    height: 30px;
-    justify-content:flex-start;
-    align-items: start;
+    height: 40px;
+    display: flex;
+    justify-content: left;
 }
 
 #footerB {
-    height: 30px;
+    height: 40px;
     display: flex;
+}
+
+.footerB {
+    display: flex;
+    align-items: center;
 }
 
 #Publicidad {
-    width: 15px ;
-    display: flex;
+    width: 8%;
+
 }
 
 #Empresa {
-    width: 15px;
-    display: flex;
+    width: 6%;
+
 }
 
 #Cómo {
-    width: 40px;
-    display: flex;
+    width: 18%;
+
 }
 
 #Emisión {
-    width: 15px;
+    width: 40%;
     display: flex;
+    justify-content: center;
+    
 }
 
 #Privacidad{
-    width: 5%;
-    display: flex;
+    width: 8%;
+
 }
 
 #Términos {
-    width: 5%;
-    display: flex;
+    width: 8%;
+
 }
 
 #Configuración {
-    width: 5%;
-    display: flex;
+    width: 10%;
 }
