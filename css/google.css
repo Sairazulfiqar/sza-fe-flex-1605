@@ -69,7 +69,7 @@ body {
 } */
 
 #main {
-    height: 600px;
+    height: 580px;
     width: 100%;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 #searchbarra {
-    border: 1px solid;
+    border: rgb(214, 214, 214) 1px solid;
     width: 40%;
     height: 50%;
     justify-content: center;
@@ -116,6 +116,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 20px;
+    border-color: rgb (230,228,228);
 }
 
 #buscar {
@@ -148,26 +149,36 @@ body {
 #footer {
     height: 80px;
     width: 100%;
-    background-color: rgb(227, 227, 227);
-    justify-content: left;
+    background-color: rgb(230, 228, 228);
+    justify-content: center;
     align-items: center;
+    color: rgb(82, 82, 82);
+    border: black 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 #footerA{
     height: 40px;
     display: flex;
-    justify-content: left;
+    justify-content:baseline;
     align-items: center;
+    margin-left: 1%;
 }
 
 #footerB {
     height: 40px;
     display: flex;
+    margin-left: 1%;
 }
 
 .footerB {
     display: flex;
     align-items: center;
+}
+
+a {
+    color: rgb(124, 124, 124);
 }
 
 #Publicidad {
