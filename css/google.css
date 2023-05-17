@@ -64,9 +64,9 @@ body {
     margin-left: 2%;
 }
 
-.main {
-    border:orange 1px solid;
-}
+/* .main {
+
+} */
 
 #main {
     height: 700px;
@@ -75,18 +75,15 @@ body {
 
 #google {
     height: 200px;
-    border: orange 1px solid;
-    
+    margin-top: 2%;  
 }
 
 #searchbar {
     height: 100px;
-    border: orange 1px solid;
 }
 
 #buscadores {
     height: 50px;
-    border: orange 1px solid;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -113,7 +110,6 @@ body {
 
 #idiomas {
     height: 150px;
-    border: orange 1px solid;
     justify-content: center;
     text-align: center;
 } 
