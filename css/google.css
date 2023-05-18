@@ -15,6 +15,7 @@ body {
 
 .head{
     border: none;
+    color: rgb(214, 214, 214);
 }
 
 #head1 {
@@ -115,7 +116,7 @@ body {
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
-    border-radius: 20px;
+    border-radius: 40px;
     border-color: rgb (230,228,228);
 }
 
@@ -177,13 +178,8 @@ body {
     align-items: center;
 }
 
-a {
-    color: rgb(124, 124, 124);
-}
-
 #Publicidad {
     width: 8%;
-
 }
 
 #Empresa {
